@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criatil</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" href="Imagens/Logo_1-removebg-preview_waifu2x_art_noise1_scale (1).png">
+
+</head>
+
+<body>
+  <link rel="stylesheet" href="CSS/siteIbm.css">
+  <header class="p-3">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center align-items-center mb-md-0">
+          <li><img src="imagens/Logo_1-removebg-preview_waifu2x_art_noise1_scale (1).png" class="logo"></li>
+          <li><a href="#" class="nav-link px-2 text-black">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-black">Explorar Catalogo</a></li>
+          <li><a href="#" class="nav-link px-2 text-black">Contatos</a></li>
+          <li><a href="#" class="nav-link px-2 text-black">Instagram</a></li>
+          <li><a href="#" class="nav-link px-2 text-black">TikTok</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-primary">Login</button>
+          <button type="button" class="btn btn-primary">Sign-up</button>
+        </div>
+        <img src="Imagens/carrinho.png" alt="Carrinho" style="width: 2.5rem;height: 2.5rem;">
+      </div>
+    </div>
+  </header>
+  <br>
+  <div class="filtro">
+  <div class="table-responsive" style="display: flex;justify-content: center;">
+    <table class="tabl table-borderless">
+      <thead>
+        <tr>
+          <td scope="col" class="text-center" ><img src="Imagens/icone_bebe_2.png" alt="Bebês" class="filtro"></td>
+          <td scope="col" class="text-center"><img src="Imagens/icone_criancas.png" alt="Crianças" class="filtro"></td>
+          <td scope="col" class="text-center"><img src="Imagens/icone_deficiente_auditivo.png" alt="Deficiente auditivo" class="filtro"></td>
+          <td scope="col" class="text-center"><img src="Imagens/icone_deficiente_visual.png" alt="Deficiente visual" class="filtro"></td>
+          <td scope="col" class="text-center"><img src="Imagens/icone_jovens_2.png" alt="Jovens" class="filtro"></td>
+          <td scope="col" class="text-center"><img src="Imagens/icone_Menu.png" alt="Outros" class="filtro"></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="text-center filtro">Bebês</th>
+          <th class="text-center filtro">Crianças</th>
+          <th class="text-center filtro">Deficiente auditivo</th>
+          <th class="text-center filtro">Deficiente visual</th>
+          <th class="text-center filtro">Jovens</th>
+          <th class="text-center filtro">Outros</th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  </div>
+  <br>
+  <h2 style="font-family: Arial, Helvetica, sans-serif;">Mais Vendidos</h2>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="lastposts">
+          <div class="row row-cols-1 row-cols-md-3 g-4" style="justify-content: space-evenly;">
+
+            <div class="card">
+              <figure class="produto">
+                <img src="Imagens/Bambam.png" class="card-img-top" alt="Pelúcia Bambam">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <h6>50%</h6>
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Pelúcia Bambam</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">R̶$̶ ̶5̶9̶,̶9̶9̶</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 29,99</p>
+              </div>
+            </div>
+
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/UnoBraille.png" class="card-img-top" alt="Uno Braille Edition">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <img src="Imagens/icone_deficiente_visual_sem_fundo.png" alt="Deficiente Visual" class="deficiente">
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Uno Braille Edition</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 39,99</p>
+              </div>
+            </div>
+
+
+
+            <div class="card h-100">
+              <img src="Imagens/Coup.png" class="card-img-top" alt="Coup Card Game">
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Coup Card Game</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 79,99</p>
+              </div>
+            </div>
+
+
+            <div class="card h-100">
+              <img src="Imagens/DPA.png" class="card-img-top" alt="Cara a Cara DPA">
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Cara a Cara DPA</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 74,99</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <img src="Imagens/Bluey.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Pelúcia Bluey</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 99,99</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <div class="lastposts">
+          <div class="row row-cols-1 row-cols-md-3 g-4" style="justify-content: space-evenly;">
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/Huggy Wuggy (2).png" class="card-img-top" alt="Pelucia Huggy Wuggy">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <h6>20%</h6>
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Pelucia Huggy Wuggy</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">̶R̶$̶ ̶49̶,̶99̶ </p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 39,99</p>
+              </div>
+            </div>
+
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/AlfabetoLibras.png" class="card-img-top" alt="Alfabeto em Libra">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <h6>50%</h6>
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Alfabeto em libras</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">̶̶̶R̶$̶ ̶29̶,̶99̶ </p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 14,99</p>
+              </div>
+            </div>
+
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/Amongus.png" class="card-img-top" alt="Among us boneco">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <h6>10%</h6>
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">̶Boneco Amoung us</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 89,99</p>
+              </div>
+            </div>
+
+
+            <div class="card h-100">
+              <img src="Imagens/Luffy.png" class="card-img-top" alt="Funko Pop Luffy">
+              <div class="card-body">
+                <h5 class="card-title" id="produto">̶Funko Pop Luffy</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 149,99</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/CuboMagicoTatil.png" class="card-img-top" alt="Among us boneco">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <img src="Imagens/icone_deficiente_visual_sem_fundo.png" alt="Deficiente Visual" class="deficiente">
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">̶Cubo Mágico Tatil</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 89,99</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <br>
+  <h2>Novidades</h2>
+  <div id="carouselExample1" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="lastposts">
+          <div class="row row-cols-1 row-cols-md-3 g-4" style="justify-content: space-evenly;">
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/Huggy Wuggy (2).png" class="card-img-top" alt="Pelucia Huggy Wuggy">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <h6>20%</h6>
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Pelucia Huggy Wuggy</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">̶R̶$̶ ̶49̶,̶99̶ </p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 39,99</p>
+              </div>
+            </div>
+
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/AlfabetoLibras.png" class="card-img-top" alt="Alfabeto em Libra">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <h6>50%</h6>
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Alfabeto em libras</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">̶̶̶R̶$̶ ̶29̶,̶99̶ </p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 14,99</p>
+              </div>
+            </div>
+
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/Amongus.png" class="card-img-top" alt="Among us boneco">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <h6>10%</h6>
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">̶Boneco Amoung us</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">R̶$̶ ̶99,̶99̶</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 89,99</p>
+              </div>
+            </div>
+
+
+            <div class="card h-100">
+              <img src="Imagens/Luffy.png" class="card-img-top" alt="Funko Pop Luffy">
+              <div class="card-body">
+                <h5 class="card-title" id="produto">̶Funko Pop Luffy</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 149,99</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/CuboMagicoTatil.png" class="card-img-top" alt="Among us boneco">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <img src="Imagens/icone_deficiente_visual_sem_fundo.png" alt="Deficiente Visual" class="deficiente">
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">̶Cubo Mágico Tatil</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 89,99</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <div class="lastposts">
+          <div class="row row-cols-1 row-cols-md-3 g-4" style="justify-content: space-evenly;">
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/Bambam.png" class="card-img-top" alt="Pelúcia Bambam">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <h6>50%</h6>
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Pelúcia Bambam</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">R̶$̶ ̶5̶9̶,̶9̶9̶</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 29,99</p>
+              </div>
+            </div>
+
+
+
+            <div class="card h-100">
+              <figure class="produto">
+                <img src="Imagens/UnoBraille.png" class="card-img-top" alt="Uno Braille Edition">
+                <div style="display: flex; justify-content: flex-end;">
+                  <img src="Imagens/Selo.png" alt="Selo" class="Selo">
+                  <img src="Imagens/icone_deficiente_visual_sem_fundo.png" alt="Deficiente Visual" class="deficiente">
+                </div>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Uno Braille Edition</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 39,99</p>
+              </div>
+            </div>
+
+
+
+            <div class="card h-100">
+              <img src="Imagens/Coup.png" class="card-img-top" alt="Coup Card Game">
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Coup Card Game</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 79,99</p>
+              </div>
+            </div>
+
+
+            <div class="card h-100">
+              <img src="Imagens/DPA.png" class="card-img-top" alt="Cara a Cara DPA">
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Cara a Cara DPA</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 74,99</p>
+              </div>
+            </div>
+
+            <div class="card h-100">
+              <img src="Imagens/Bluey.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" id="produto">Pelúcia Bluey</h5>
+                <p class="card-text" style="font-size: 10px;margin-top: -1rem;">⠀</p>
+                <p class="card-text" style="margin-top: -1rem;">R$ 99,99</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+    <div class="container-bs-primary" >
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><h5 id="footer">Home</h5></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><h5 id="footer">Termos de uso</h5></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><h5 id="footer">Trabalhe conosco</h5></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><h5 id="footer">SAC</h5></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><h5 id="footer">Sobre nós</h5></a></li>
+        </ul>
+        <p class="text-center text-body-secondary"><h5 id="footer">&copy; 2023 Criatil</h5></p>
+      </footer>
+    </div
+</body>
